@@ -1,0 +1,20 @@
+{
+  "name": "clean-bandits/single-action-resource-controllers-for-laravel-dingo-api",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "CleanBandits\\SingleActionResourceControllersForLaravelDingoApi\\": "src/"
+    }
+  },
+  "homepage": "https://github.com/CleanBandits/single-action-resource-controllers-for-laravel-dingo-api",
+  "authors": [
+    {
+      "name": "Clean Bandits"
+    }
+  ],
+  "require": {
+    "php": ">=8.3",
+    "api-ecosystem-for-laravel/dingo-api": ">=4.0"
+  }
+}
