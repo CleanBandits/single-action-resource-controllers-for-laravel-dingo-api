@@ -8,7 +8,7 @@ It's really simple,
  - Create new single action (invokable) controllers for each action you need, like this. ![img.png](img.png)
  - Each controller should have public function __invoke
 ## Installation
-`composer require clean-bandits/single-action-resource-controllers-for-laravel-dingo-api`
+`composer require clean-bandits/single-action-resource-controllers-for-laravel-dingo-api`  
 In DingoServiceProvider add this code
 ```php
  public function register(): void
