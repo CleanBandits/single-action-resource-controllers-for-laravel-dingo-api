@@ -1,4 +1,4 @@
-# About Single Actions Resource Controllers for Laravel Dingo API
+# Single Actions Resource Controllers for Laravel Dingo API
 This package extends Dingo API with new feature - Route::resource combined with "Single Action Controllers".
 
 
