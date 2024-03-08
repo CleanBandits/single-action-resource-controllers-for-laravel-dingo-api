@@ -6,7 +6,7 @@ This package extends Dingo API with new feature - Route::resource combined with 
 It's really simple, 
  - Just add new route like this `$api->singleActionResource('payments-by-link', ['uses' => 'PaymentByLink']);`
  - Create new single action (invokable) controllers for each action you need, like this. ![img.png](img.png)
- - Each container should have public function __invoke
+ - Each controller should have public function __invoke
 ## Installation
 `composer require clean-bandits/single-action-resource-controllers-for-laravel-dingo-api`
 In DingoServiceProvider add this code
